@@ -26,6 +26,13 @@ html, body {
     padding: 0; /* Remove default padding */
     width: 100%; /* Make sure the body takes up the full width */
     overflow: hidden; /* Prevent both horizontal and vertical scrolling */
+ }
+ 
+ html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    overflow: hidden; 
     background-image: url(/images/lined_paper_background.png.jpg);
     background-repeat: none;
 }
