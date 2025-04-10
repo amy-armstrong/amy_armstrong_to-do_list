@@ -1,0 +1,99 @@
+.decorated-heading {
+    text-align: center;
+    font-size: 42px;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .decorated-heading::after {
+    content: "🫶🏻";
+ }
+ 
+ input[type="checkbox"]:checked + span::after {
+    content: "❤️";
+ }
+ 
+ html, body {
+    margin: 0; /
+    padding: 0;
+    width: 100%; 
+    overflow: hidden; 
+    background-image: url(/images/lined_paper_background.png.jpg);
+    background-repeat: none;
+ }
+ 
+ 
+
+ form {
+    display:flex;
+    justify-content: center;
+    gap: 0;
+    max-width: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+    padding-top: 20%;
+    margin: 0;
+ }
+ 
+ 
+ .checklist {
+    border: solid #b33535;
+    border-style:dashed;
+    background-color: white;
+    width: 30%; 
+    height: 30%;
+    box-sizing: border-box; 
+    margin: 20px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ 
+
+ ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0; 
+ }
+ 
+ 
+ ul li {
+    display: block;
+    margin-top: 10px;
+ }
+ 
+
+ ul li input {
+    margin-right: 5px;
+ }
+ 
+ 
+ input:checked+span {
+    color:#b33535;
+ }
+ 
+ 
+ #inprogress {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ 
+ #towatch{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ 
+ #complete {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
