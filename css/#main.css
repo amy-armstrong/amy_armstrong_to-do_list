@@ -9,23 +9,19 @@
 
 .decorated-heading::after {
     content: "🫶🏻";
-
 }
 
-/*look for input of the type checkbox (matches attribute and if it us checked,
-find the span that immediately follows it and use the ::After selector*/
 
 input[type="checkbox"]:checked + span::after {
     content: "❤️";
 }
 
-/* Remove any default margin and padding */
 
 html, body {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    width: 100%; /* Make sure the body takes up the full width */
-    overflow: hidden; /* Prevent both horizontal and vertical scrolling */
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    overflow: hidden; 
  }
  
  html, body {
@@ -37,46 +33,45 @@ html, body {
     background-repeat: none;
 }
 
-/* Ensuring flex container does not overflow */
+
 form {
     display:flex;
     justify-content: center;
     gap: 0;
-    max-width: 100%; /* Prevents form from exceeding the width */
-    width: 100%; /* Ensures form is responsive */
-    overflow: hidden; /* Prevent overflow */
+    max-width: 100%; 
+    width: 100%; 
+    overflow: hidden; 
     padding-top: 20%;
     margin: 0;
 
 }
 
-/* Styling for each checklist */
+
 .checklist {
     border: solid #b33535;
     border-style:dashed;
     background-color: white;
-    width: 30%; /* Adjust width so checklists fit on the screen */
+    width: 30%; 
     height: 30%;
-    box-sizing: border-box; /* Includes padding/border in the width */
+    box-sizing: border-box;
     margin: 20px;
     font-size: 22px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Remove bullet points from the list */
+
 ul {
     list-style-type: none;
     padding: 10px;
-    margin: 0; /* Remove any margin */
+    margin: 0; 
 }
 
-/* Styling for each list item */
+
 ul li {
     display: block;
     margin-top: 10px;
 }
 
-/* Space between checkbox and text */
 ul li input {
     margin-right: 5px;
 }
